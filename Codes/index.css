@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
+}
+
+div.fundo-tudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Renda Tudo */
+/* Renda mensal */
+
+div.fundorenda{
+    padding: 20px;    
+}
+
+div.renda-alinhar{
+    margin-top: 30px;
+    display: flex;
+}
+
+/* Renda item */
+
+div.renda-item{
+    display: flex;
+    flex-direction: column;
+}
+
+input.nome-renda{
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+    
+}
+
+/* Renda valor */
+
+div.renda-valor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+input.valor-renda{
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+    
+}
+
+/* Despesa Tudo */
+/* Despesa mensal */
+
+div.fundodespesa{
+    padding: 20px;    
+}
+
+div.despesa-alinhar{
+    margin-top: 30px;
+    display: flex;
+}
+
+/* Despesa item */
+
+div.despesa-item{
+    display: flex;
+    flex-direction: column;
+}
+
+input.nome-despesa{
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+    
+}
+
+/* Despesa valor */
+
+div.despesa-valor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+input.valor-despesa{
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+    
+}
+
+
+/* Resumo resultado */
+
+div.fundo-resultado{
+    padding: 20px;
+}
+
+div.resumo-alinhar{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-porcentagem{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.resultado-porcentagem{
+    font-size: 35px;
+}
+
+div.resultado-porcentagem{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 117, 255, 0.11);
+}
+
+div.resultado-dados{
+    padding-left: 20px;
+}
+
+.texto-resumo{
+    padding-top: 10px;
+}
+
+
+
+
+/* Botão Salvar */
+
+div.botao-enviar{
+    display: flex;
+    justify-content: center;
+}
+
+button.enviar-dados{
+    background-color: #0075FF;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+}
